@@ -12,7 +12,7 @@ to avoid scanning using all the templates again.
 
 ```
 chmod +x filter-nuclei.sh
-mv filter-nuclei.sh /usr/bin/filter-nuclei
+sudo mv filter-nuclei.sh /usr/bin/filter-nuclei
 filter-nuclei
 ```
 
