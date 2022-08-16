@@ -13,7 +13,13 @@ to avoid scanning using all the templates again.
 ```
 chmod +x filter-nuclei.sh
 sudo mv filter-nuclei.sh /usr/bin/filter-nuclei
+```
+
+usage:
+
+```
 filter-nuclei
+nuclei -l urls.txt -t ~/Desktop/templatenuclei
 ```
 
 it creates a folder at /Desktop/templatenuclei
